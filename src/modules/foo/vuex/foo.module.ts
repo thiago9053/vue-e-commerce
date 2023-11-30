@@ -1,4 +1,5 @@
 export const moduleFoo = {
+  namespaced: true,
   state: () => ({
     count: 0,
   }),

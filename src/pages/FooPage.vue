@@ -1,6 +1,7 @@
 <template>
   <h1>Foo</h1>
   <v-btn class="btn" @click="a">Button</v-btn>
+  <span class="text-[#333] font-bold">Click me</span>
   <Foo />
 </template>
 
