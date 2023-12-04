@@ -11,18 +11,7 @@
   "parser": "vue-eslint-parser",
   "rules": {
     "vue/multi-word-component-names": "off",
-    "vue/object-curly-spacing": [2, "always"],
-    "vue/max-attributes-per-line": [
-      2,
-      {
-        "singleline": {
-          "max": 1
-        },
-        "multiline": {
-          "max": 1
-        }
-      }
-    ]
+    "vue/object-curly-spacing": [2, "always"]
   },
   "plugins": ["vue", "@typescript-eslint"],
   "parserOptions": {

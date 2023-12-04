@@ -1,4 +1,4 @@
-import { HomePage, FooPage } from "@/pages";
+import { HomePage, FooPage, LoginPage, SignupPage } from "@/pages";
 import { RouteRecordRaw } from "vue-router";
 
 export const routes: RouteRecordRaw[] = [
@@ -13,5 +13,17 @@ export const routes: RouteRecordRaw[] = [
     name: "foo",
     component: FooPage,
     meta: { title: "Foo" },
+  },
+  {
+    path: "/login",
+    name: "login",
+    component: LoginPage,
+    meta: { title: "Login" },
+  },
+  {
+    path: "/signup",
+    name: "signup",
+    component: SignupPage,
+    meta: { title: "Signup" },
   },
 ];
